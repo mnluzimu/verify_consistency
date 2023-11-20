@@ -607,7 +607,10 @@ The minimum value of $a^2 + b^2 + c^2 + d^2$ calculated using the Cauchy-Schwarz
 2. **First Bounce**: The ball bounces to $ \frac{2}{3} $ of its starting height.
 3. **Second Bounce**: The height of the ball after the first bounce will be the starting height for the second bounce, so we'll multiply that height by $ \frac{2}{3} $ again.
 
-Using these steps, we can calculate the height of the ball on its second bounce.# Constants
+Using these steps, we can calculate the height of the ball on its second bounce.
+
+```python
+# Constants
 height_per_floor = 24
 floors = 3
 bounce_fraction = 2 / 3
@@ -620,7 +623,10 @@ first_bounce_height = initial_height * bounce_fraction
 
 # Height after the second bounce
 second_bounce_height = first_bounce_height * bounce_fraction
-second_bounce_heightresult:
+second_bounce_height
+```
+
+result:
 
 32.0
 
@@ -675,6 +681,7 @@ k = math.ceil(k)
 
 k
 ```
+
 result:
 
 46
