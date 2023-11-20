@@ -166,7 +166,9 @@ Now we can add up all the slices eaten by Becky, Jake, and Silvia to find the to
 
 The total number of slices eaten is $10 + 7 + 14$.
 
-Let's calculate this using code.# Given values
+Let's calculate this using code.
+```python
+# Given values
 slices_per_pizza = 8
 total_pizzas = 4
 becky_slices = 10
@@ -180,7 +182,10 @@ silvia_slices = jake_slices * 2
 
 # Calculating the total slices they ate
 total_slices_eaten = becky_slices + jake_slices + silvia_slices
-total_slices_eatenresult:
+total_slices_eaten
+```
+
+result:
 
 31
 
