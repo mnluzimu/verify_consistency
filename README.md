@@ -1,4 +1,4 @@
-
+![distribution](./CW_pie.png)
 
 ### Answer Process: Correct, Verification Process: Correct
 
